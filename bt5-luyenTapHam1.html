@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test function</title>
+</head>
+
+<body onload="getValue1and2()">
+
+<script>
+        var mang1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+    var mang2 = ['UrsaMinor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'UrsaMajor', 'Leo']
+    function getValue1and2() {
+        let i = prompt('Nhập tên chòm sao')
+        let b = mang1.indexOf(i)
+        if(b >= 0 && b < mang1.length) {
+            alert(mang2[b])
+        } else {
+            alert('khong ton tai')
+        }
+
+
+
+    }
+</script>
+
+</body>
+
+</html>
